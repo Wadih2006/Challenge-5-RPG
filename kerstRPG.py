@@ -140,5 +140,8 @@ keuze_aanval = input("You had the option to go [AGRESSIVE MODE] or [SILENT MODE]
 if keuze_aanval == "agressive mode":
     print("You are fighting now aggresive against the guardiens")
 else:
-    print("You are sneeking really silent and kill them one by one")
+    print("You are sneeking really silent and kill only one of them")
+    time.sleep(3)
+    print("the last guard has the keys to the cage where the kids are trapped in")
+    
 
