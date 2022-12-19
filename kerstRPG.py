@@ -135,7 +135,10 @@ print("you hid on top of the roof luckily he didn't see you.")
 time.sleep(3)
 print("the hall in front of the room with children there where so many guards")
 time.sleep(4)
-print("you had the option to go [AGRESSIVE MODE] or [SILENT MODE]")
 
-keuze_aanval = input
-    
+keuze_aanval = input("You had the option to go [AGRESSIVE MODE] or [SILENT MODE]")
+if keuze_aanval == "agressive mode":
+    print("You are fighting now aggresive against the guardiens")
+else:
+    print("You are sneeking really silent and kill them one by one")
+
