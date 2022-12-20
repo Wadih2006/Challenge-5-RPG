@@ -1,9 +1,9 @@
 import time 
 import random
-from art import *
+# from art import *
 
 
-klaar_knop = input("This game contains a scary story, make sure you play this in a safe place... (press any button) ")
+klaar_knop = input("This game contains a scary story, make sure you play this in a safe place... (press enter to continue) ")
 klaar_knop = ()
 print("Before we begin, a special thanks to Kevin & Wadih for making this game.")
 print("Lets begin the story...")
@@ -136,12 +136,62 @@ time.sleep(3)
 print("the hall in front of the room with children there where so many guards")
 time.sleep(4)
 
-keuze_aanval = input("You had the option to go [AGRESSIVE MODE] or [SILENT MODE]")
+keuze_aanval = input("You had the option to go [AGRESSIVE MODE] or [STEALTH MODE]")
 if keuze_aanval == "agressive mode":
-    print("You are fighting now aggresive against the guardiens")
+    print("You are fighting now aggresive against the guardiens and kill all of them, but you can get hurt")
 else:
-    print("You are sneeking really silent and kill only one of them")
+    print("You are sneeking really silent and kill the guardien infront of the cage")
     time.sleep(3)
-    print("the last guard has the keys to the cage where the kids are trapped in")
-    
+    print("He has the keys to the cage where the kids are trapped in.")
 
+
+
+
+print("You freed the kids, but Krampus is comming and you put the kids in a box.")
+time.sleep(3)
+keuze_verstoppen = input("You hide them under the [TABLE] or under the [MACHINE]...")
+if keuze_verstoppen == "table":
+    print("You have hidden the kids under, but Krampus is comming and you have to fight him")
+else:
+    print("You have hidden the kids under, but Krampus is comming and you have to fight him")
+
+time.sleep(3)
+print("When you want to fight Krampus, you suddenly find a Nerf RPG that was left from the kids. You allready had bullets that you find outside and reload the Nerf RPG")
+time.sleep(3)
+keuze_aanvallen = input("The sword that you have are going to [ATTACH] to the Nerf RPG or you [SHOOT] with the Nerf RPG...")
+if keuze_aanvallen == "attach":
+    print("The sword is attached to the Nerf RPG and attack him")
+    time.sleep(3)
+    print("He is really injured and you finally kill him!!")
+else:
+    print("Use all the bullets you have against krampus")
+    time.sleep(2)
+    print("He falls on the ground and you finish him with your last attack!!")
+
+
+
+# wadih gemaakt
+print("Finally Krampus is killed and all the fear is lost")
+time.sleep(2)
+keuze_zwaard = input("You are returning to the old monster, do you want to give him the sword back, [YES] or [NO]?")
+if keuze_zwaard == "yes":
+    print("The sword is back with his original owner, you ask him the way back to the portal...")
+    time.sleep(2)
+    keuze_bedanken = input("Do you want to thank him that he give you his sword? [YES] or [NO]...")
+    if keuze_bedanken == "yes":
+        print("You thanked him very much and you go back home. You woke up at the door, the door was already open and you walk in.")
+        time.sleep(3)
+        print("\nThat is the end of the RPG, thanks to Kevin Simon & Wadih Ibrahim")
+    elif keuze_bedanken == "no":
+        print("You didn't thank him and got back home. You woke up at the door, the door was already open and you walk in.")
+        time.sleep(3)
+        print("\nThat is the end of the RPG, thanks to Kevin Simon & Wadih Ibrahim")
+else:
+    print("You didn't give him the sword back, instead, you bring it with you home and ask him the way back to the portal...")
+    time.sleep(2)
+    print("You woke up at the door, the door was already open and you walk in.")
+    time.sleep(3)
+    print("\nThat is the end of the RPG, thanks to Kevin Simon & Wadih Ibrahim")
+
+
+    
