@@ -126,7 +126,8 @@ time.sleep(4)
 print("you have arrived at the huge house")
 print("NEW CHAPTER UNLOCKED: Kids House.")
 time.sleep(4)
-print(r"""{} {}
+print(r"""                        
+                                  {} {}
                             !  !  II II  !  !
                          !  I__I__II II__I__I  !
                          I_/|--|--|| ||--|--|\_I
