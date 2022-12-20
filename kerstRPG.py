@@ -78,14 +78,15 @@ elif keuze_schuur == "stay":
     time.sleep(5)
     print("He looked so hungry so you gave him something to eat that you have been stored in your pockets")
     time.sleep(4)
-    print("""\n
-    __________________,.............,    
-   /_/_/_/_/_/_/_/_/,-',  ,. -,-,--/|
-  /_/_/_/_/_/_/_/,-' //  /-| / /--/ /
- /_/_/_/_/_/_/,-' `-''--'  `' '--/ /
-/_/_/_/_/_/_,:................../ /
-|________,'                     |/
-         """"""""""""""""""""""")
+    print(r"""\n
+  ___  ___  ___  ___  ___.---------------.
+.'\__\'\__\'\__\'\__\'\__,`   .  ____ ___ \
+|\/ __\/ __\/ __\/ __\/ _:\   |`.  \  \___ \
+ \\'\__\'\__\'\__\'\__\'\_`.__|""`. \  \___ \
+  \\/ __\/ __\/ __\/ __\/ __:                \
+   \\'\__\'\__\'\__\ \__\'\_;-----------------`
+    \\/   \/   \/   \/   \/ :                 |
+     \|______________________;________________|""")
     
     print("You are thinking of trying to free him but that's really dangerous if Krampus finds out you're dead so make the right choice...")
     gelukkooi = input("you try to brake the cage open but if Krampus hears this then you're dead [PRESS ENTER TO SEE IF IT WORKED]")
@@ -94,7 +95,7 @@ keuze_bevrijden = random.randint(1, 10)
 
 if keuze_bevrijden <= 3:
     print("Krampus killed you!")
-
+    exit()
 else:
     print("You freed the old slave!")
     
@@ -125,23 +126,174 @@ time.sleep(4)
 print("you have arrived at the huge house")
 print("NEW CHAPTER UNLOCKED: Kids House.")
 time.sleep(4)
+print(r"""{} {}
+                            !  !  II II  !  !
+                         !  I__I__II II__I__I  !
+                         I_/|--|--|| ||--|--|\_I
+        .-'"'-.       ! /|_/|  |  || ||  |  |\_|\ !       .-'"'-.
+       /===    \      I//|  |  |  || ||  |  |  |\\I      /===    \
+       \==     /   ! /|/ |  |  |  || ||  |  |  | \|\ !   \==     /
+        \__  _/    I//|  |  |  |  || ||  |  |  |  |\\I    \__  _/
+         _} {_  ! /|/ |  |  |  |  || ||  |  |  |  | \|\ !  _} {_
+        {_____} I//|  |  |  |  |  || ||  |  |  |  |  |\\I {_____}
+   !  !  |=  |=/|/ |  |  |  |  |  || ||  |  |  |  |  | \|\=|-  |  !  ! 
+  _I__I__|=  ||/|  |  |  |  |  |  || ||  |  |  |  |  |  |\||   |__I__I_
+  -|--|--|-  || |  |  |  |  |  |  || ||  |  |  |  |  |  | ||=  |--|--|-
+  _|__|__|   ||_|__|__|__|__|__|__|| ||__|__|__|__|__|__|_||-  |__|__|_
+  -|--|--|   ||-|--|--|--|--|--|--|| ||--|--|--|--|--|--|-||   |--|--|- 
+   |  |  |=  || |  |  |  |  |  |  || ||  |  |  |  |  |  | ||   |  |  | 
+   |  |  |   || |  |  |  |  |  |  || ||  |  |  |  |  |  | ||=  |  |  | 
+   |  |  |-  || |  |  |  |  |  |  || ||  |  |  |  |  |  | ||   |  |  | 
+   |  |  |   || |  |  |  |  |  |  || ||  |  |  |  |  |  | ||=  |  |  |
+   |  |  |=  || |  |  |  |  |  |  || ||  |  |  |  |  |  | ||   |  |  |
+   |  |  |   || |  |  |  |  |  |  || ||  |  |  |  |  |  | ||   |  |  |
+   |  |  |   || |  |  |  |  |  |  || ||  |  |  |  |  |  | ||-  |  |  |
+  _|__|__|   || |  |  |  |  |  |  || ||  |  |  |  |  |  | ||=  |__|__|_
+  -|--|--|=  || |  |  |  |  |  |  || ||  |  |  |  |  |  | ||   |--|--|-
+  _|__|__|   ||_|__|__|__|__|__|__|| ||__|__|__|__|__|__|_||-  |__|__|_
+  -|--|--|=  ||-|--|--|--|--|--|--|| ||--|--|--|--|--|--|-||=  |--|--|-
+  -|--|--|-  || |  |  |  |  |  |  || ||  |  |  |  |  |  | ||-  |  |  |
+ ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~~~~~~~~~~~""")
+print("you opened the old gate.")
+time.sleep(4)
+print("when you opened it it sounded like someone was screaming... just like when you were walking in the woods")
+time.sleep(5)
+print(r"""
+                               .     .
+                               !!!!!!!
+                       .       [[[|]]]    .
+                       !!!!!!!!|--_--|!!!!!
+                       [[[[[[[[\_(X)_/]]]]]
+               .-.     /-_--__-/_--_-\-_--\
+               |=|    /-_---__/__-__-_\__-_\
+           . . |=| ._/-__-__\===========/-__\_
+           !!!!!!!!!\========[ /]]|[[\ ]=====/
+          /-_--_-_-_[[[[[[[[[||==  == ||]]]]]]
+         /-_--_--_--_|=  === ||=/^|^\ ||== =|
+        /-_-/^|^\-_--| /^|^\=|| | | | ||^\= |
+       /_-_-| | |-_--|=| | | ||=|_|_|=||"|==|
+      /-__--|_|_|_-_-| |_|_|=||______=||_| =|
+     /_-__--_-__-___-|_=__=_.`---------'._=_|__
+    /-----------------------\===========/-----/
+   ^^^\^^^^^^^^^^^^^^^^^^^^^^[[|]]|[[|]]=====/
+       |.' ..==::'"'::==.. '.[ /~~~~~\ ]]]]]]]
+       | .'=[[[|]]|[[|]]]=`._||==  =  || =\ ]
+       ||== =|/ _____ \|== = ||=/^|^\=||^\ ||
+       || == `||-----||' = ==|| | | |=|| |=||
+       ||= == ||:^s^:|| = == ||=| | | || |=||
+       || = = ||:___:||= == =|| |_|_| ||_|=||
+      _||_ = =||o---.|| = ==_||_= == =||==_||_
+      \__/= = ||:   :||= == \__/[][][][][]\__/
+      [||]= ==||:___:|| = = [||]\\//\\//\\[||]
+      }  {---'"'-----'"'- --}  {//\\//\\//}  {
+    __[==]__________________[==]\\//\\//\\[==]_
+   |`|~~~~|================|~~~~|~~~~~~~~|~~~~||
+   |^| ^  |================|^   | ^ ^^ ^ |  ^ ||
+  \|//\\/^|/==============\|/^\\\^/^.\^///\\//|///
+ \\///\\\//===============\\//\\///\\\\////\\\/////
+ """)
 print("it was big, scary, dark, creepy and there were broken toys and teddy bears… also there was scuffed furniture in front of the house")
 time.sleep(6)
 print("you went in quickly. actually broken into")
 time.sleep(3)
 print("there he was... Krampus.")
 time.sleep(2)
-print("you hid on top of the roof luckily he didn't see you.")
-time.sleep(3)
+keuze_verstoppen = input("you had the choice to hide under the [FURNITURE] or act like a [DOLL] standing in the hallway. ")
+if keuze_verstoppen == "furniture":
+    print("you hid under the furniture and table. luckily he didn't see you.")
+    
+else:
+    print("you tried to act like a doll standing in the hallway. he did saw you and ripped you apart (try again!)")
+    exit()
 print("the hall in front of the room with children there where so many guards")
 time.sleep(4)
 
-keuze_aanval = input("You had the option to go [AGRESSIVE MODE] or [SILENT MODE]")
+keuze_aanval = input("You had the option to go [AGRESSIVE MODE] or [SILENT MODE]. ")
 if keuze_aanval == "agressive mode":
     print("You are fighting now aggresive against the guardiens")
-else:
-    print("You are sneeking really silent and kill only one of them")
-    time.sleep(3)
-    print("the last guard has the keys to the cage where the kids are trapped in")
-    
 
+elif keuze_aanval == "silent mode":
+    print("you try to sneak past all guard and only kill the last. ")
+    time.sleep(3)
+    print(r"""         ,     .
+        /(     )\               A
+   .--.( `.___.' ).--.         /_\
+   `._ `%_&%#%$_ ' _.'     /| <___> |\
+      `|(@\*%%/@)|'       / (  |L|  ) \
+       |  |%%#|  |       J d8bo|=|od8b L  <------ HEAD
+        \ \$#%/ /        | 8888|=|8888 |
+        |\|%%#|/|        J Y8P"|=|"Y8P F
+        | (.".)%|         \ (  |L|  ) /
+    ___.'  `-'  `.___      \|  |L|  |/
+  .'#*#`-       -'$#*`.       / )|
+ /#%^#%*_ *%^%_  #  %$%\    .J (__)
+ #&  . %%%#% ###%*.   *%\.-'&# (__)
+ %*  J %.%#_|_#$.\J* \ %'#%*^  (__)       <------ RIBS
+ *#% J %$%%#|#$#$ J\%   *   .--|(_)
+ |%  J\ `%%#|#%%' / `.   _.'   |L|
+ |#$%||` %%%$### '|   `-'      |L|
+ (#%%||` #$#$%%% '|            |L|
+ | ##||  $%%.%$%  |            |L|
+ |$%^||   $%#$%   |            |L|        <------ STOMACH
+ |&^ ||  #%#$%#%  |            |L|
+ |#$*|| #$%$$#%%$ |\           |L|
+ ||||||  %%(@)$#  |\\          |L|
+ `|||||  #$$|%#%  | L|         |L|
+      |  #$%|$%%  | ||l        |L|        <------ LEGS
+      |  ##$H$%%  | |\\        |L|
+      |  #%%H%##  | |\\|       |L|
+      |  ##% $%#  | Y|||       |L|
+      J $$#* *%#% L  |E/
+      (__ $F J$ __)  F/
+      J#%$ | |%%#%L
+      |$$%#& & %%#|                       <------ CALVES
+      J##$ J % %%$F
+       %$# * * %#&
+       %#$ | |%#$%
+       *#$%| | #$*
+      /$#' ) ( `%%\
+     /#$# /   \ %$%\
+    ooooO'     `Ooooo
+ """)
+time.sleep(4)
+print("the last guard is in front of you...")
+time.sleep(3)
+aanval_guard = input("what are you going to hit? his [HEAD] [RIBS] [STOMACH] [LEGS] or the [CALVES] ")
+if aanval_guard == "head":
+    print("you hit him on his head and the head falls off. ")
+    time.sleep(4)
+    print("but he continues the fight but he can't see anything so easy game and you finish him off.")
+    
+elif aanval_guard == "ribs":
+    print("you hit him in his stomach and he istantly died.")
+
+elif aanval_guard == "stomach":
+    print("you hit him in his stomach and continued the fight... eventually you finished him.")
+    time.sleep(4)
+    print("WARNING! you are injured too.")
+    
+elif aanval_guard == "legs":
+    print("you slice the sword trough his legs. they got cut off.")
+    time.sleep(4)
+    print("he can't walk anymore...")
+    time.sleep(4)
+    print("you can kill him really easy.")
+    
+elif aanval_guard == "calves":
+    print("it doesn't do anything to he laughs at you and kill you...")
+    time.sleep(4)
+    print("you died! try again.")
+    
+else:
+    print("give a good answer. ")
+    exit()
+
+print("luckily the last one had the keys from the cage of the children... ")
+time.sleep(3)
+print("all out of a sudden he heard a kid scream he was so scared because he knew he could go in prison for killing someone.")
+time.sleep(5)
+print("he was so brave that he got to the room where the children have been trapped.")
+time.sleep(4)
+print("you opened the door and saw a huge cage where the kids have been trapped in.")
+time.sleep(4)
+print()
