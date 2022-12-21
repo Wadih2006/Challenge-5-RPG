@@ -12,9 +12,23 @@ print("Prepare yourself😈...")
 time.sleep(3)
 print("CHAPTHER ONE: The House.")
 time.sleep(3)
-print("You're a boy named Griffin who is 17 years old. You go to school by train everyday, you got bullied many times at school and run to the woods nearby, but the bully is running after you. You look back but then you hit a tree and fall unconscious.")
-time.sleep(6)
-print("You finally wake up in the \x1B[3m" + "christmas" + "\x1B[0m woods next to an old house.")
+print("You're a boy named Griffin who is 17 years old. You go to school with the train everyday")
+print(r"""
+    ,---------------------------------.    ,--
+       |,-------------------------------.|    |,-
+       || o      /\  o     o       o    ||    ||
+   ,--.||    o  /  \    o             o ||    ||o
+-. \    `. o   /-..-\         o       ,-:|    ||
+  \ )    _\  /\/    \     o          :   \    ||
+   )),;;'(. /  \  o  \o           o  |    )   ||
+  / ((.`   >/`'\.__..-\/\    /\      |   /    ||
+  \  )) )""")
+time.sleep(8)
+print("you got bullied many times at school and run to the woods nearby, but the bully is running after you.")
+time.sleep(5)
+print("You look back but then you hit a tree and fall unconscious...")
+time.sleep(4)
+print("You finally wake up in the \x1B[3m" + "christmas" + "\x1B[0m woods next to an old, dark house.")
 print("""\n        `'::.
     _________H ,%%&%,
    /\     _   \%&&%%&%
@@ -46,14 +60,16 @@ if keuze_buiten == "upstairs":
 elif keuze_buiten == "basement":
     print("You know you aren't prepaired for what's down there but you still go there...")
     time.sleep(4)
-    print("You saw a portal floating in the middle of the basement\n you tried to turn it off but then you got sucked in...")
-        
+    print("You saw a portal floating in the middle of the basement") 
+    time.sleep(3)
+    print("you tried to turn it off but then you got sucked in...")
+    time.sleep(3)
 print("NEW CHAPTER UNLOCKED: The Dark Night. ")
-
+time.sleep(3)
 keuze_schuur = input("You wake up in an old shed and hear something whispering in the back of the shed.\n do you [ESCAPE] or [STAY] and figure out what the sound is. ")
 if keuze_schuur == "escape":
     print("You tried to escape from krampus but he was too fast for you so...")
-    time.sleep(2)
+    time.sleep(3)
     print("YOU DIED! try again. ")
     
 elif keuze_schuur == "stay":
@@ -88,7 +104,10 @@ elif keuze_schuur == "stay":
     \\/   \/   \/   \/   \/ :                 |
      \|______________________;________________|""")
     
-    print("You are thinking of trying to free him but that's really dangerous if Krampus finds out you're dead so make the right choice...")
+    print("You are thinking of trying to free him but that's really dangerous.")
+    time.sleep(4)
+    print("if Krampus finds out you're dead so make the right choice...")
+    time.sleep(4)
     gelukkooi = input("you try to brake the cage open but if Krampus hears this then you're dead [PRESS ENTER TO SEE IF IT WORKED]")
 
 keuze_bevrijden = random.randint(1, 10)
@@ -156,9 +175,9 @@ print(r"""
   -|--|--|-  || |  |  |  |  |  |  || ||  |  |  |  |  |  | ||-  |  |  |
  ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~~~~~~~~~~~""")
 print("you opened the old gate.")
-time.sleep(4)
-print("when you opened it it sounded like someone was screaming... just like when you were walking in the woods")
 time.sleep(5)
+print("when you opened it it sounded like someone was screaming... just like when you were walking in the woods")
+time.sleep(4)
 print(r"""
                                .     .
                                !!!!!!!
@@ -193,6 +212,7 @@ print(r"""
   \|//\\/^|/==============\|/^\\\^/^.\^///\\//|///
  \\///\\\//===============\\//\\///\\\\////\\\/////
  """)
+time.sleep(3)
 print("it was big, scary, dark, creepy and there were broken toys and teddy bears… also there was scuffed furniture in front of the house")
 time.sleep(6)
 print("you went in quickly. actually broken into")
@@ -209,60 +229,138 @@ else:
 print("the hall in front of the room with children there where so many guards")
 time.sleep(4)
 
-keuze_aanval = input("You had the option to go [AGRESSIVE MODE] or [STEALTH MODE]")
+keuze_aanval = input("You had the option to go [AGRESSIVE MODE] or [STEALTH MODE] ")
 if keuze_aanval == "agressive mode":
-    print("You are fighting now aggresive against the guardiens and kill all of them, but you can get hurt")
+    print("You are fighting now aggresive against the guardiens and kill all of them, but remember you can get hurt")
 else:
-    print("You are sneeking really silent and kill the guardien infront of the cage")
+    print("You are sneeking behind all the furniture and backs of the monsters and have to kill the last one which is standing in front of the room where the children have been trapped")
     time.sleep(3)
-    print("He has the keys to the cage where the kids are trapped in.")
-
-
-
-
-print("You freed the kids, but Krampus is comming and you put the kids in a box.")
+    print(r"""         ,     .
+        /(     )\               A
+   .--.( `.___.' ).--.         /_\
+   `._ `%_&%#%$_ ' _.'     /| <___> |\
+      `|(@\*%%/@)|'       / (  |L|  ) \
+       |  |%%#|  |       J d8bo|=|od8b L  <------ HEAD
+        \ \$#%/ /        | 8888|=|8888 |
+        |\|%%#|/|        J Y8P"|=|"Y8P F
+        | (.".)%|         \ (  |L|  ) /
+    ___.'  `-'  `.___      \|  |L|  |/
+  .'#*#`-       -'$#*`.       / )|
+ /#%^#%*_ *%^%_  #  %$%\    .J (__)
+ #&  . %%%#% ###%*.   *%\.-'&# (__)
+ %*  J %.%#_|_#$.\J* \ %'#%*^  (__)       <------ RIBS
+ *#% J %$%%#|#$#$ J\%   *   .--|(_)
+ |%  J\ `%%#|#%%' / `.   _.'   |L|
+ |#$%||` %%%$### '|   `-'      |L|
+ (#%%||` #$#$%%% '|            |L|
+ | ##||  $%%.%$%  |            |L|
+ |$%^||   $%#$%   |            |L|        <------ STOMACH
+ |&^ ||  #%#$%#%  |            |L|
+ |#$*|| #$%$$#%%$ |\           |L|
+ ||||||  %%(@)$#  |\\          |L|
+ `|||||  #$$|%#%  | L|         |L|
+      |  #$%|$%%  | ||l        |L|        <------ LEGS
+      |  ##$H$%%  | |\\        |L|
+      |  #%%H%##  | |\\|       |L|
+      |  ##% $%#  | Y|||       |L|
+      J $$#* *%#% L  |E/
+      (__ $F J$ __)  F/
+      J#%$ | |%%#%L
+      |$$%#& & %%#|                       <------ CALVES
+      J##$ J % %%$F
+       %$# * * %#&
+       %#$ | |%#$%
+       *#$%| | #$*
+      /$#' ) ( `%%\
+     /#$# /   \ %$%\
+    ooooO'     `Ooooo
+ """)
+time.sleep(4)
+print("the last guard is in front of you...")
 time.sleep(3)
-keuze_verstoppen = input("You hide them under the [TABLE] or under the [MACHINE]...")
-if keuze_verstoppen == "table":
-    print("You have hidden the kids under, but Krampus is comming and you have to fight him")
+aanval_guard = input("what are you going to hit? his [HEAD] [RIBS] [STOMACH] [LEGS] or the [CALVES] ")
+if aanval_guard == "head":
+    print("you hit him on his head and the head falls off. ")
+    time.sleep(4)
+    print("but he continues the fight but he can't see anything so easy game and you finish him off.")
+    
+elif aanval_guard == "ribs":
+    print("you hit him in his stomach and he istantly died.")
+
+elif aanval_guard == "stomach":
+    print("you hit him in his stomach and continued the fight... eventually you finished him.")
+    time.sleep(4)
+    print("WARNING! you are injured too.")
+    
+elif aanval_guard == "legs":
+    print("you slice the sword trough his legs. they got cut off.")
+    time.sleep(4)
+    print("he can't walk anymore...")
+    time.sleep(4)
+    print("you can kill him really easy.")
+    
+elif aanval_guard == "calves":
+    print("it doesn't do anything to he laughs at you and kill you...")
+    time.sleep(4)
+    print("you died! try again.")
+    
 else:
-    print("You have hidden the kids under, but Krampus is comming and you have to fight him")
+    print("give a good answer. ")
+    exit()
+
+print("luckily the last one had the keys from the cage of the children... ")
+time.sleep(3)
+print("all out of a sudden he heard a kid scream he was so scared because he knew he could go in prison for killing someone.")
+time.sleep(5)
+print("he was so brave that he got to the room where the children have been trapped.")
+time.sleep(4)
+print("you opened the door and saw a huge cage where the kids have been trapped in.")
+time.sleep(4)
+
+
+print("You freed the kids, but Krampus is coming and you put the kids in a box.")
+time.sleep(4)
+keuze_verstoppen = input("You hide them under the [TABLE] or under the [MACHINE]... ")
+if keuze_verstoppen == "table":
+    print("You have hidden the kids under, but Krampus is coming and you have to fight him")
+else:
+    print("You have hidden the kids under, but Krampus is coming and you have to fight him")
 
 time.sleep(3)
 print("When you want to fight Krampus, you suddenly find a Nerf RPG that was left from the kids. You allready had bullets that you find outside and reload the Nerf RPG")
 time.sleep(3)
-keuze_aanvallen = input("The sword that you have are going to [ATTACH] to the Nerf RPG or you [SHOOT] with the Nerf RPG...")
-if keuze_aanvallen == "attach":
+keuze_aanvallen = input("are you going to [ATTACK] with the sword or [SHOOT] with the Nerf RPG?" )
+if keuze_aanvallen == "attack":
     print("The sword is attached to the Nerf RPG and attack him")
     time.sleep(3)
     print("He is really injured and you finally kill him!!")
 else:
     print("Use all the bullets you have against krampus")
     time.sleep(2)
-    print("He falls on the ground and you finish him with your last attack!!")
+    print("He falls on the ground and you finish him with your last attack!")
 
 
 print("Finally Krampus is killed and all the fear is lost")
 time.sleep(2)
-keuze_zwaard = input("You are returning to the old monster, do you want to give him the sword back, [YES] or [NO]?")
+keuze_zwaard = input("You are returning to the old monster, do you want to give him the sword back, [YES] or [NO]? ")
 if keuze_zwaard == "yes":
     print("The sword is back with his original owner, you ask him the way back to the portal...")
-    time.sleep(2)
-    keuze_bedanken = input("Do you want to thank him that he give you his sword? [YES] or [NO]...")
+    time.sleep(4)
+    keuze_bedanken = input("Do you want to thank him that he give you his sword? [YES] or [NO]... ")
     if keuze_bedanken == "yes":
         print("You thanked him very much and you go back home. You woke up at the door, the door was already open and you walk in.")
-        time.sleep(3)
+        time.sleep(5)
         print("\nThat is the end of the RPG, thanks to Kevin Simon & Wadih Ibrahim")
     elif keuze_bedanken == "no":
         print("You didn't thank him and got back home. You woke up at the door, the door was already open and you walk in.")
-        time.sleep(3)
+        time.sleep(5)
         print("\nThat is the end of the RPG, thanks to Kevin Simon & Wadih Ibrahim")
 else:
     print("You didn't give him the sword back, instead, you bring it with you home and want to put it in your room. You asked him the way back to the portal...")
-    time.sleep(2)
+    time.sleep(7)
     print("You go home and your mother was waiting at the door and asks you where you have been.")
-    time.sleep(2)
-    keuze_leugen = input("[1]I stayed overnight with a friend, [2]I had to survival in the woods for school, [3]You say nothing and walks further...")
+    time.sleep(4)
+    keuze_leugen = input("[1]I stayed overnight with a friend, [2]I had to survival in the woods for school, [3]You say nothing and walks further... ")
     if keuze_leugen == "1":
         print("Your parents believe you but are a little bit stressed")
         time.sleep(3)
